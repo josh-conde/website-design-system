@@ -61,11 +61,12 @@ header {
     display: flex;
     justify-content: space-between;
     padding: 8px; 
-    margin: 10px 5px;
+    margin: 20px auto;
     border: 3px solid #e6f54a;
     border-radius: 12px;
     max-width: 100%;
-    background-color: whitesmoke; 
+    background-color: whitesmoke;
+    width: 1000px;  
 }
 
 .tan-color {
@@ -120,11 +121,12 @@ header {
     display: flexbox;
     justify-content: space-between; 
     padding: 8px; 
-    margin: 10px 5px;
+    margin: 20px auto;
     border: 3px solid #e6f54a;
     border-radius: 12px;
     max-width: 100%;
     background-color: whitesmoke; 
+    width: 1000px; 
 }
 
 .lobster-font {
@@ -172,11 +174,12 @@ header {
 .headings-container {
     display: flexbox;
     padding: 8px;
-    margin: 10px 5px;
+    margin: 20px auto;
     border: 3px solid #e6f54a;
     border-radius: 12px;
     max-width: 100%;
-    background-color: whitesmoke; 
+    background-color: whitesmoke;
+    width: 1000px;  
 }
 
 .headings-container ul {
@@ -212,11 +215,12 @@ header {
     display: flexbox;
     justify-content: space-between;
     padding: 8px; 
-    margin: 10px 5px;
+    margin: 20px auto;
     border: 3px solid #e6f54a;
     border-radius: 12px;
     max-width: 100%;
     background-color: whitesmoke;
+    width: 1000px; 
 }
 
 .button-1 {
@@ -303,11 +307,12 @@ header {
 .links-container {
     display: flexbox;
     padding: 8px;
-    margin: 10px 5px;
+    margin: 20px auto;
     border: 3px solid #e6f54a;
     border-radius: 12px;
     max-width: 100%;
     background-color: whitesmoke; 
+    width: 1000px; 
 }
 
 .links-container li {
