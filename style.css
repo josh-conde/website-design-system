@@ -1,0 +1,295 @@
+/* #ead3b1 - Tan Color */
+/* #e6f54a - Green Color */
+/* #89bef1 - Blue Color */
+/* #ce0014 - Red Color */
+/* #1d1818 - Black Color */
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Enriqueta:wght@400;500;600;700&family=Lobster&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+}
+
+html, body {
+    line-height: 1.4;
+    color: #1d1818;
+    background-color: #89bff11f;
+}
+
+h1 {
+    font-family: "Lobster", Arial, sans-serif; 
+    font-size: 40px;
+    text-align: center;
+    color: #ce0014;
+    text-decoration: underline; 
+    text-decoration-line: overline;
+    text-decoration-color: #89bef1;
+}
+
+h2 {
+    font-family: "Bebas Neue", Arial, sans-serif;
+    text-transform: uppercase;
+    font-size: 28px;
+    text-decoration: underline;
+    text-decoration-color: #ead3b1;
+    color: #ce0014; 
+}
+
+h3 {
+    font-family: "Bebas Neue", Arial, sans-serif;
+    font-size: 24px; 
+    color: #89bef1;
+}
+
+p {
+    font-family: "Enriqueta", Arial, sans-serif;
+    font-size: 18px;
+    line-height: 1.7; 
+}
+
+header {
+    padding: 15px;
+    border: 3px solid #e6f54a;
+    background-color: whitesmoke; 
+}
+.colors-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px; 
+    margin: 10px 5px;
+    border: 3px solid #e6f54a;
+    border-radius: 12px;
+    max-width: 100%;
+    background-color: whitesmoke; 
+}
+
+.tan-color {
+    background-color:#ead3b1;
+    width: 150px; 
+    height: 100px; 
+    text-align: center;
+    border-radius: 12%;
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+.green-color {
+    background-color:#e6f54a;
+    width: 150px; 
+    height: 100px; 
+    text-align: center;
+    border-radius: 12%;
+    font-weight: bold;
+}
+
+.blue-color {
+    background-color:#89bef1;
+    width: 150px; 
+    height: 100px; 
+    text-align: center;
+    border-radius: 12%;
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+.red-color {
+    background-color:#ce0014;
+    width: 150px; 
+    height: 100px; 
+    text-align: center;
+    border-radius: 12%;
+    font-weight: bold;
+}
+
+.black-color {
+    background-color:#1d1818;
+    width: 150px; 
+    height: 100px; 
+    text-align: center;
+    color: whitesmoke; 
+    border-radius: 12%;
+    font-weight: bold;
+}
+
+.fonts-container {
+    display: flexbox;
+    justify-content: space-between; 
+    padding: 8px; 
+    margin: 10px 5px;
+    border: 3px solid #e6f54a;
+    border-radius: 12px;
+    max-width: 100%;
+    background-color: whitesmoke; 
+}
+
+.lobster-font {
+    font-family: "Lobster", Arial, sans-serif;
+}
+
+.lobster-font-italics {
+    font-family: "Lobster", Arial, sans-serif;
+    font-style: italic;
+}
+
+.lobster-font-bold {
+    font-family: "Lobster", Arial, sans-serif;
+    font-weight: bold; 
+}
+
+.bebas-font {
+    font-family: "Bebas Neue", Arial, sans-serif;
+}
+
+.bebas-font-italics {
+    font-family: "Bebas Neue", Arial, sans-serif;
+    font-style: italic;
+}
+
+.bebas-font-bold {
+    font-family: "Bebas Neue", Arial, sans-serif;
+    font-weight: bold; 
+}
+
+.enriqueta-font {
+    font-family: "Enriqueta", Arial, sans-serif; 
+}
+
+.enriqueta-font-italics {
+    font-family: "Enriqueta", Arial, sans-serif;
+    font-style: italic; 
+}
+
+.enriqueta-font-bold {
+    font-family: "Enriqueta", Arial, sans-serif;
+    font-weight: bold; 
+}
+.headings-container {
+    display: flexbox;
+    padding: 8px;
+    margin: 10px 5px;
+    border: 3px solid #e6f54a;
+    border-radius: 12px;
+    max-width: 100%;
+    background-color: whitesmoke; 
+}
+.headings-container ul {
+    list-style-type: none;
+}
+
+.title-heading {
+    font-family: "Lobster", Arial, sans-serif; 
+    font-size: 40px;
+    text-align: center;
+    color: #ce0014;
+    text-decoration: underline; 
+    text-decoration-line: overline;
+    text-decoration-color: #89bef1;
+}
+
+.subheading-1 {
+    font-family: "Bebas Neue", Arial, sans-serif;
+    text-transform: uppercase;
+    font-size: 28px;
+    text-decoration: underline;
+    text-decoration-color: #ead3b1;
+    color: #ce0014; 
+}
+
+.subheading-2 {
+    font-family: "Bebas Neue", Arial, sans-serif;
+    font-size: 24px; 
+    color: #89bef1;
+}
+.buttons-container {
+    display: flexbox;
+    justify-content: space-between;
+    padding: 8px; 
+    margin: 10px 5px;
+    border: 3px solid #e6f54a;
+    border-radius: 12px;
+    max-width: 100%;
+    background-color: whitesmoke; 
+}
+
+.button-1 {
+    width: 150px;
+    height: 60px;
+    font-family: "Lobster", Arial, sans-serif;
+    font-size: 20px;
+    color: #ce0014;
+    text-decoration: underline;
+    text-decoration-color: #89bef1;
+    background-color: #e6f54a;
+    border: 2px solid #89bef1;
+    border-radius: 15px;
+}
+.button-1:hover {
+    width: 160px;
+    height: 60px;
+    font-family: "Lobster", Arial, sans-serif;
+    font-size: 24px;
+    color: #ce0014;
+    text-decoration: underline;
+    text-decoration-color: #89bef1;
+    background-color: #e6f54a;
+    border: 2px solid #89bef1;
+    border-radius: 15px;
+    cursor: pointer;
+    box-shadow: 0 8px 2px hsla(197, 88%, 59%, 0.185);
+}
+
+.button-2 {
+    width: 150px;
+    height: 60px;
+    border-radius: 15px;
+    font-family: "Bebas Neue", Arial, sans-serif;
+    font-size: 20px;
+    color: #89bef1;
+    background-color: #ead3b1;
+    border: 2px solid #ce0014;
+}
+
+.button-2:hover {
+    width: 160px;
+    height: 60px;
+    border-radius: 15px;
+    font-family: "Bebas Neue", Arial, sans-serif;
+    font-size: 24px;
+    color: #89bef1;
+    background-color: #ead3b1;
+    border: 2px solid #ce0014;
+    cursor: pointer;
+    box-shadow: 0 8px 2px hsla(0, 82%, 60%, 0.185);
+    font-weight: bold; 
+}
+
+.button-3 {
+    width: 150px;
+    height: 60px;
+    border-radius: 15px;
+    font-family: "Bebas Neue", Arial, sans-serif;
+    font-size: 20px; 
+    border: 2px solid #ce0014;
+    color: whitesmoke;
+    background-color: #1d1818;
+    text-decoration: overline;
+    text-decoration-color: #89bef1
+}
+
+.button-3:hover {
+    width: 160px;
+    height: 60px;
+    border-radius: 15px;
+    font-family: "Bebas Neue", Arial, sans-serif;
+    font-size: 24px; 
+    border: 2px solid #ce0014;
+    color: whitesmoke;
+    background-color: #1d1818;
+    text-decoration: overline;
+    text-decoration-color: #89bef1;
+    font-weight: bold;
+    cursor: pointer; 
+    box-shadow: 0 8px 2px hsla(0, 82%, 60%, 0.185);
+}
