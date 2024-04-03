@@ -53,6 +53,9 @@ header {
     padding: 15px;
     border: 3px solid #e6f54a;
     background-color: whitesmoke; 
+    border-radius: 12px;
+    margin: 10px 5px; 
+    max-width: 100%; 
 }
 .colors-container {
     display: flex;
@@ -165,6 +168,7 @@ header {
     font-family: "Enriqueta", Arial, sans-serif;
     font-weight: bold; 
 }
+
 .headings-container {
     display: flexbox;
     padding: 8px;
@@ -174,8 +178,10 @@ header {
     max-width: 100%;
     background-color: whitesmoke; 
 }
+
 .headings-container ul {
     list-style-type: none;
+    font-family: "Enriqueta", Arial, sans-serif;
 }
 
 .title-heading {
@@ -210,7 +216,7 @@ header {
     border: 3px solid #e6f54a;
     border-radius: 12px;
     max-width: 100%;
-    background-color: whitesmoke; 
+    background-color: whitesmoke;
 }
 
 .button-1 {
@@ -292,4 +298,70 @@ header {
     font-weight: bold;
     cursor: pointer; 
     box-shadow: 0 8px 2px hsla(0, 82%, 60%, 0.185);
+}
+
+.links-container {
+    display: flexbox;
+    padding: 8px;
+    margin: 10px 5px;
+    border: 3px solid #e6f54a;
+    border-radius: 12px;
+    max-width: 100%;
+    background-color: whitesmoke; 
+}
+
+.links-container li {
+    list-style: none; 
+    padding: 8px 0; 
+}
+
+li.links-1 a {
+    text-decoration-color:#ce0014; 
+    font-size: 30px;
+    color: #89bef1;
+    font-family: "Enriqueta", Arial, sans-serif;
+    font-style: italic; 
+}
+
+li.links-1 a:hover {
+    text-decoration-color: #e6f54a; 
+    font-size: 33px;
+    color: #6baeec;
+    font-family: "Enriqueta", Arial, sans-serif;
+    font-style: italic; 
+}
+
+li.links-2 a {
+    text-decoration-color: #e6f54a; 
+    font-size: 30px;
+    color: #ce0014;
+    font-family: "Bebas Neue", Arial, sans-serif; 
+}
+
+li.links-2 a:hover {
+    text-decoration-color: #e6f54a; 
+    font-size: 33px;
+    color: #89bef1;
+    font-family: "Bebas Neue", Arial, sans-serif;
+    font-style: bolder; 
+}
+
+li.links-3 a {
+    text-decoration: none;
+    font-size: 30px;
+    color: #ce0014;
+    font-family: "Bebas Neue", Arial, sans-serif;
+    font-style: italic;
+    background-color: #89bef1;
+    border-radius: 50%; 
+}
+
+li.links-3 a:hover {
+    text-decoration: none;
+    font-size: 33px;
+    color: #ce0014;
+    font-family: "Bebas Neue", Arial, sans-serif;
+    font-style: italic;
+    background-color: #e6f54a;
+    border-radius: 50%; 
 }
